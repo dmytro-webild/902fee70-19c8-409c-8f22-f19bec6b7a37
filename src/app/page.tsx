@@ -6,7 +6,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
+import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -41,22 +41,22 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardRotatedCarousel
+      <HeroSplitKpi
       background={{ variant: "plain" }}
-      title="Fisioterapia Pélvica: Cuidado especializado para a saúde íntima da mulher"
-      description="Restaure sua saúde pélvica e elimine desconfortos com um atendimento especializado, planejado exclusivamente para suas necessidades."
+      title="Fisioterapia Pélvica: Restauração completa para o seu bem-estar"
+      description="Obtenha resultados mensuráveis através de um tratamento que restaura a saúde do assoalho pélvico e elimina desconfortos, devolvendo sua qualidade de vida com segurança e autonomia."
       buttons={[
         { text: "Agendar consulta", href: "#contact" },
         { text: "Falar no WhatsApp", href: "https://wa.me/5519999999999" },
       ]}
-      carouselItems={[
-        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/winter-season-lodging-entrance_482257-103218.jpg", imageAlt: "Clinic environment" },
-        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-stethoscope-syringe-bottle-medicine-piece-paper_181624-23615.jpg", imageAlt: "Clinic view 1" },
-        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/examination-bed-dry-needling-clinic_107420-65816.jpg", imageAlt: "Clinic view 2" },
-        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/woman-physiotherapy-making-physical-exercises-with-qualified-therapist_1157-38079.jpg", imageAlt: "Clinic view 3" },
-        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/female-doctor-diagnosing-melanoma-body-female-patient_23-2149365771.jpg", imageAlt: "Clinic view 4" },
-        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/front-view-interior-room-design-concept_23-2148786439.jpg", imageAlt: "Clinic view 5" },
+      kpis={[
+        { value: "98%", label: "Resultados Positivos" },
+        { value: "+500", label: "Mulheres Atendidas" },
+        { value: "24/7", label: "Suporte Especializado" }
       ]}
+      imageSrc="http://img.b2bpic.net/free-photo/woman-physiotherapy-making-physical-exercises-with-qualified-therapist_1157-38079.jpg"
+      imageAlt="Fisioterapia Pélvica"
+      enableKpiAnimation={true}
     />
   </div>
 
