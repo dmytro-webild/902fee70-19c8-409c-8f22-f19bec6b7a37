@@ -6,7 +6,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroOverlay from '@/components/sections/hero/HeroOverlay';
+import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -41,7 +41,7 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroOverlay
+      <HeroSplit
       title="Fisioterapia Pélvica: Restauração completa para o seu bem-estar"
       description="Obtenha resultados mensuráveis através de um tratamento que restaura a saúde do assoalho pélvico e elimina desconfortos, devolvendo sua qualidade de vida com segurança e autonomia."
       buttons={[
@@ -50,8 +50,9 @@ export default function LandingPage() {
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-physiotherapy-making-physical-exercises-with-qualified-therapist_1157-38079.jpg"
       imageAlt="Fisioterapia Pélvica"
-      showBlur={true}
-      textPosition="bottom"
+      imagePosition="right"
+      mediaAnimation="opacity"
+      background={{ variant: "plain" }}
     />
   </div>
 
