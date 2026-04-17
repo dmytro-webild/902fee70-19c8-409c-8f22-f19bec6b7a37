@@ -43,7 +43,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
       background={{ variant: "plain" }}
-      title="Cuidado especializado para a saúde íntima da mulher"
+      title="Fisioterapia Pélvica: Cuidado especializado para a saúde íntima da mulher"
       description="Restore pelvic health and eliminate discomfort with specialized care tailored to your needs."
       buttons={[
         { text: "Agendar consulta", href: "#contact" },
