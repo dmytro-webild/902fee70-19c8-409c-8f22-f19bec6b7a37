@@ -44,7 +44,7 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{ variant: "plain" }}
       title="Cuidado especializado para a saúde íntima da mulher"
-      description="Fisioterapia pélvica e obstétrica com atendimento humanizado em Americana."
+      description="Restore pelvic health and eliminate discomfort with specialized care tailored to your needs."
       buttons={[
         { text: "Agendar consulta", href: "#contact" },
         { text: "Falar no WhatsApp", href: "https://wa.me/5519999999999" },
