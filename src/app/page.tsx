@@ -138,9 +138,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        { id: "q1", title: "O que é fisioterapia pélvica?", content: "É uma especialidade que trata disfunções musculares e nervosas do assoalho pélvico feminino." },
-        { id: "q2", title: "Preciso de encaminhamento médico?", content: "Não necessariamente, mas é recomendado para uma avaliação interdisciplinar." },
-        { id: "q3", title: "Como agendar?", content: "Você pode agendar diretamente pelo botão de WhatsApp em nosso site." },
+        { id: "q1", title: "Como é uma sessão inicial?", content: "Na primeira sessão, realizamos uma avaliação detalhada para entender seu histórico e definir um plano de tratamento personalizado." },
+        { id: "q2", title: "O que é fisioterapia pélvica?", content: "É uma especialidade que trata disfunções musculares e nervosas do assoalho pélvico feminino." },
+        { id: "q3", title: "Preciso de encaminhamento médico?", content: "Não necessariamente, mas é recomendado para uma avaliação interdisciplinar." },
+        { id: "q4", title: "Como agendar?", content: "Você pode agendar diretamente pelo botão de WhatsApp em nosso site." },
       ]}
       title="Dúvidas Frequentes"
       description="Informações essenciais para seu tratamento."
