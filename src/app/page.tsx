@@ -6,7 +6,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
+import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -41,22 +41,17 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroSplitKpi
-      background={{ variant: "plain" }}
+      <HeroOverlay
       title="Fisioterapia Pélvica: Restauração completa para o seu bem-estar"
       description="Obtenha resultados mensuráveis através de um tratamento que restaura a saúde do assoalho pélvico e elimina desconfortos, devolvendo sua qualidade de vida com segurança e autonomia."
       buttons={[
         { text: "Agendar consulta", href: "#contact" },
         { text: "Falar no WhatsApp", href: "https://wa.me/5519999999999" },
       ]}
-      kpis={[
-        { value: "98%", label: "Resultados Positivos" },
-        { value: "+500", label: "Mulheres Atendidas" },
-        { value: "24/7", label: "Suporte Especializado" }
-      ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-physiotherapy-making-physical-exercises-with-qualified-therapist_1157-38079.jpg"
       imageAlt="Fisioterapia Pélvica"
-      enableKpiAnimation={true}
+      showBlur={true}
+      textPosition="bottom"
     />
   </div>
 
