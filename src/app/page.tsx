@@ -44,7 +44,7 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{ variant: "plain" }}
       title="Fisioterapia Pélvica: Cuidado especializado para a saúde íntima da mulher"
-      description="Restore pelvic health and eliminate discomfort with specialized care tailored to your needs."
+      description="Restaure sua saúde pélvica e elimine desconfortos com um atendimento especializado, planejado exclusivamente para suas necessidades."
       buttons={[
         { text: "Agendar consulta", href: "#contact" },
         { text: "Falar no WhatsApp", href: "https://wa.me/5519999999999" },
